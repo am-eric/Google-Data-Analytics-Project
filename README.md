@@ -114,5 +114,4 @@ type](Rplot%20no_of_rides%20vs%20weekday%20for%20user%20type.png)
 -   However, Casual members spend more time on the bike compared to
     members
 
-![average duration vs weekday by
-usertype](Rplot average duration vs weekday by usertype.png)
+![average duration vs weekday by usertype](Rplot.jpeg)
