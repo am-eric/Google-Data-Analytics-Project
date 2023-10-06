@@ -179,3 +179,11 @@ half_2023trips_v2 %>%
   geom_col(position = "dodge")
 
 
+# EXPORT SUMMARY FILE FOR FURTHER ANALYSIS
+counts <- aggregate(half_2023trips_v2$ride_length ~ half_2023trips_v2$member_casual + half_2023trips_v2$day_of_week, FUN = mean)
+
+write.csv(counts, file = 'C:\\Users\\Eric\\R\\Cyclistic GDPC Capstone\\Google-Data-Analytics-Project\\avg_ride_length.csv')
+
+view(counts)
+
+write.csv(half_2023trips_v2, file = 'C:\\Users\\Eric\\R\\Cyclistic GDPC Capstone\\Google-Data-Analytics-Project\\2023_ride_data.csv')
