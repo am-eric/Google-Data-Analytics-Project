@@ -35,25 +35,19 @@ with compelling data insights and professional data visualizations.
 
 ## Ask
 
--   
+#### Goal
 
-    #### Goal
+Design Marketing strategies aimed at converting casual riders into
+annual members
 
-    Design Marketing strategies aimed at converting casual riders into
-    annual members
+#### Business Task
 
--   
+Identify how annual members and casual riders use Cyclistic bikes
+differently.
 
-    #### Business Task
+#### Key Stakeholders
 
-    Identify how annual members and casual riders use Cyclistic bikes
-    differently.
-
--   
-
-    #### Key Stakeholders
-
-    Lily Moreno : The director of marketing and your manager.
+Lily Moreno : The director of marketing and your manager.
 
 Cyclistic marketing analytics team: team of data analysts who are
 responsible for collecting, analyzing, and reporting data that helps
@@ -61,13 +55,11 @@ guide Cyclistic marketing strategy.
 
 Cyclistic executive team
 
--   
+#### Data Sources
 
-    #### Data Sources
-
-    Data collected from the first quater of 2020 Q1. The data has been
-    made available by Motivate International Inc. under this
-    [license](https://divvybikes.com/data-license-agreement).
+Data collected from the first quater of 2020 Q1. The data has been made
+available by Motivate International Inc. under this
+[license](https://divvybikes.com/data-license-agreement).
 
 ## Prepare
 
@@ -94,7 +86,8 @@ Saturday
 
 ![202301
 SORTED](https://github.com/am-eric/Google-Data-Analytics-Project-/assets/64156869/ea2250e2-d4d8-48ab-a09b-4298a58ac0a8)
-\## Analyze
+
+## Analyze
 
 ### Aggregation using R
 
@@ -117,3 +110,9 @@ inspected the data for aggregation
 
 ![no_of_rides vs weekday for user
 type](Rplot%20no_of_rides%20vs%20weekday%20for%20user%20type.png)
+
+-   However, Casual members spend more time on the bike compared to
+    members
+
+![Average_duration against weekday by
+usertype](Rplot Average_duration  against weekday by usertype.png)
