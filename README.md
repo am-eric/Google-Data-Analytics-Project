@@ -41,7 +41,7 @@ Data collected from the first quarter of 2020 (Q1). The data has been made avail
 
 ![Excel sheet](202301.jpg)
 
-### 2. Process
+## Process
 
 -   Created a column called "ride_length."
 -   Created a column called "day_of_week."
@@ -49,7 +49,7 @@ Data collected from the first quarter of 2020 (Q1). The data has been made avail
 
 ![Excel sheet](202301%20SORTED.jpg)
 
-## Data Analysis
+## Analyze
 
 ### Aggregation using R
 
