@@ -1,117 +1,71 @@
 ---
-editor_options: 
-  markdown: 
-    wrap: 72
+title: Capstone Cyclistic Project 1
+author: Eric Mutua
+date: 2023-09-28
 ---
 
-# Google-Data-Analytics-Project-
+# Cyclistic Bike-Share Analysis
 
-Google Data Analytics Professional Certificate Capstone Project 1
+## Introduction
 
-## Case Study
+Welcome to the Cyclistic bike-share analysis case study! In this case study, you will perform many real-world tasks of a junior data analyst. You will work for a fictional company, Cyclistic, and meet different characters and team members. In order to answer the key business questions, you will follow the steps of the data analysis process: **ask, prepare, process, analyze, share, and act**.
 
-### How Does a Bike-Share Navigate Speedy Success?
+## Case Study Overview
 
-#### Introduction
+### Goal
 
-Welcome to the Cyclistic bike-share analysis case study! In this case
-study, you will perform many real-world tasks of a junior data analyst.
-You will work for a fictional company, Cyclistic, and meet different
-characters and team members. In order to answer the key business
-questions, you will follow the steps of the data analysis process:
-**ask, prepare, process, analyze, share, and act.**
+Design Marketing strategies aimed at converting casual riders into annual members.
 
-#### Scenario
+### Business Task
 
-You are a junior data analyst working in the marketing analyst team at
-Cyclistic, a bike-share company in Chicago. The director of marketing
-believes the company's future success depends on maximizing the number
-of annual memberships. Therefore, your team wants to understand how
-casual riders and annual members use Cyclistic bikes differently. From
-these insights, your team will design a new marketing strategy to
-convert casual riders into annual members. But first, Cyclistic
-executives must approve your recommendations, so they must be backed up
-with compelling data insights and professional data visualizations.
+Identify how annual members and casual riders use Cyclistic bikes differently.
 
-## Ask
+### Key Stakeholders
 
-#### Goal
+-   Lily Moreno: The director of marketing and your manager.
+-   Cyclistic marketing analytics team: a team of data analysts responsible for collecting, analyzing, and reporting data.
+-   Cyclistic executive team.
 
-Design Marketing strategies aimed at converting casual riders into
-annual members
+### Data Sources
 
-#### Business Task
+Data collected from the first quarter of 2020 (Q1). The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
 
-Identify how annual members and casual riders use Cyclistic bikes
-differently.
+## Project Stages
 
-#### Key Stakeholders
+### 1. Prepare
 
-Lily Moreno : The director of marketing and your manager.
+-   Sorted the data to according to the started day and time.
+-   Adjusted the column width to fit the content.
 
-Cyclistic marketing analytics team: team of data analysts who are
-responsible for collecting, analyzing, and reporting data that helps
-guide Cyclistic marketing strategy.
+![Excel sheet](202301.jpg)
 
-Cyclistic executive team
+### 2. Process
 
-#### Data Sources
+-   Created a column called "ride_length."
+-   Created a column called "day_of_week."
+-   Calculated the day of the week that each ride started using the "WEEKDAY" command (for example, =WEEKDAY(C2,1)) in each file. Format as General or as a number with no decimals, noting that 1 = Sunday and 7 = Saturday.
 
-Data collected from the first quater of 2020 Q1. The data has been made
-available by Motivate International Inc. under this
-[license](https://divvybikes.com/data-license-agreement).
+![Excel sheet](202301 SORTED.jpg)
 
-## Prepare
-
-Due to the large amount of data, presented here are some snapshots of
-the process.
-
-Sorted the data to according to the started day and time.
-
-Adjusted the column width to fit the content
-
-![sorted](https://github.com/am-eric/Google-Data-Analytics-Project-/assets/64156869/9e98fd80-9f13-4e1a-93c2-ed93f6f17832)
-.
-
-## Process
-
-Created a column called "ride_length"
-
-Created a column called "day_of_week"
-
-Calculated the day of the week that each ride started using the
-"WEEKDAY" command (for example, =WEEKDAY(C2,1)) in each file. Format as
-General or as a number with no decimals, noting that 1 = Sunday and 7 =
-Saturday
-
-![202301
-SORTED](https://github.com/am-eric/Google-Data-Analytics-Project-/assets/64156869/ea2250e2-d4d8-48ab-a09b-4298a58ac0a8)
-
-## Analyze
+## Data Analysis
 
 ### Aggregation using R
 
-Data aggregation is done in the R script. Here are the steps taken.
+Data aggregation is done in the R script. Here are the steps taken:
 
--   Collect data created dataframes for the 7 months data
+-   Collect data, create dataframes for the 7 months of data.
+-   Inspected the data for aggregation.
+-   Combine data into one table/dataframe.
+-   Add columns that list the date, month, day, and year.
+-   Convert "started_at" and "ended_at" to date-time objects to get the ride_length in seconds.
+-   Aggregated the data to find key relationships and patterns.
 
-inspected the data for aggregation
+### Key Insights
 
--   Combine data to one table/ dataframe
+-   Members have more rides compared to casual members.
 
--   Add columns that list the date, month, day and year
+![Number of Rides vs. Weekday](Rplot%20no_of_rides%20vs%20weekday%20for%20user%20type.png)
 
--   Convert started_at and ended_at to date-time objects to get the
-    ride_length in seconds
+-   However, casual members spend more time on the bike compared to members.
 
--   Aggregated the data to find the key relationships and patterns.
-
--   i found that, members have more rides compare to casual members.
-
-![no_of_rides vs weekday for user
-type](Rplot%20no_of_rides%20vs%20weekday%20for%20user%20type.png)
-
--   However, Casual members spend more time on the bike compared to
-    members
-
-![average duration vs weekday by usertype](Rplot.jpeg)
+![Average Duration vs. Weekday by User Type](Rplot.jpeg)
