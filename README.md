@@ -75,3 +75,55 @@ Data aggregation is done in the R script. Here are the steps taken:
 -   Exported the summary file for further analysis
 
 ## Share
+
+I took my polished data to tableau public and got the following insights.
+
+##### COUNT OF RIDE DATA AGAINST MONTHS
+
+![rides vs months](rides vs months.jpg)
+
+-   The number of rides increases drastically from March 2023 which is after winter, for both casual and members. Thus, bike riding is seasonal.
+
+-   We can also see that members have more rides compared to casual members.
+
+    ##### START-STATION NAME/COUNT RIDE-DATA
+
+    ![station name vs number_of_rides](station name vs no of rides.jpg)
+
+-   I also wanted to figure out the location that had most rides. According to the visualization, **Streeter Dr & Grand Ave** had the most rides.
+
+-   Casual riders often use the **Streeter Dr & Grand Ave** as their start station.
+
+##### RIDE-LENGTH / DAY OF WEEK
+
+![duration vs day of week](duration vs day of week.jpg)
+
+-   Casual riders spend more time on the bike compares to members.
+
+-   Casual riders ride the most during the weekends and least on wednesday.
+
+-   Member riders take the almost the same time riding daily.
+
+##### RIDE TYPE VS COUNT OF RIDES
+
+![ridetype vs count of rides](ridetype vs count or rides.jpg)
+
+-   From this we can see that, member riders do not use the docked bike.
+
+-   Member riders use the electric bike more than casual riders.
+
+-   Member riders also use the classic bikes more then the casual riders.
+
+##### RIDEABLE TYPE VS RIDE LENGTH
+
+![ridetype vs ridelength](ridetype vs ridelength.jpg)
+
+-   They both spend more time on the classic bikes but casual riders spend the most time.
+
+##### NUMBER OF RIDES VS RIDEABLE TYPES
+
+![number of rides vs rideable type](number of rides vs rideable type.jpg)
+
+-   Electric bikes have been rode on the most.
+
+-   The docked bikes have the least number of rides.
