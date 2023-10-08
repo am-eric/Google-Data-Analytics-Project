@@ -80,7 +80,7 @@ I took my polished data to tableau public and got the following insights.
 
 ##### COUNT OF RIDE DATA AGAINST MONTHS
 
-![rides vs months](rides vs months.jpg)
+![rides vs months](rides%20vs%20months.jpg)
 
 -   The number of rides increases drastically from March 2023 which is after winter, for both casual and members. Thus, bike riding is seasonal.
 
@@ -88,7 +88,7 @@ I took my polished data to tableau public and got the following insights.
 
     ##### START-STATION NAME/COUNT RIDE-DATA
 
-    ![station name vs number_of_rides](station name vs no of rides.jpg)
+    ![station name vs number_of_rides](station%20name%20vs%20no%20of%20rides.jpg)
 
 -   I also wanted to figure out the location that had most rides. According to the visualization, **Streeter Dr & Grand Ave** had the most rides.
 
@@ -96,7 +96,7 @@ I took my polished data to tableau public and got the following insights.
 
 ##### RIDE-LENGTH / DAY OF WEEK
 
-![duration vs day of week](duration vs day of week.jpg)
+![duration vs day of week](duration%20vs%20day%20of%20week.jpg)
 
 -   Casual riders spend more time on the bike compares to members.
 
@@ -106,7 +106,7 @@ I took my polished data to tableau public and got the following insights.
 
 ##### RIDE TYPE VS COUNT OF RIDES
 
-![ridetype vs count of rides](ridetype vs count or rides.jpg)
+![ridetype vs count of rides](ridetype%20vs%20count%20or%20rides.jpg)
 
 -   From this we can see that, member riders do not use the docked bike.
 
@@ -116,14 +116,30 @@ I took my polished data to tableau public and got the following insights.
 
 ##### RIDEABLE TYPE VS RIDE LENGTH
 
-![ridetype vs ridelength](ridetype vs ridelength.jpg)
+![ridetype vs ridelength](ridetype%20vs%20ridelength.jpg)
 
 -   They both spend more time on the classic bikes but casual riders spend the most time.
 
 ##### NUMBER OF RIDES VS RIDEABLE TYPES
 
-![number of rides vs rideable type](number of rides vs rideable type.jpg)
+![number of rides vs rideable type](number%20of%20rides%20vs%20rideable%20type.jpg)
 
 -   Electric bikes have been rode on the most.
 
--   The docked bikes have the least number of rides.
+-   The docked bikes have the least number of rides.\
+
+## ACT
+
+A lot of interesting insights were uncovered while analyzing the data for the case study. Casual and Member groups use Cyclistic service in different ways. Overall, the members use it more often but for a shorter periods of time.
+
+Based on all of the above, here are my recommendations:
+
+1.  The data clearly shows the seasonality of the service usage among casual riders, it will make sense to run promo campaigns during warmer months when the usage peaks. This way it is possible to cover more potential customers to convert to buy the membership.
+
+2.  The marketing campaign would likely be more targeted at casual users if it is run on the weekends in the areas with the most used docking stations among the one-timers.  **Streeter Dr & Grand Ave** docking station should be prioritized.
+
+3.  We can increase the conversion of the casual customers if we promote and popularize the idea of 'green', eco-friendly and healthy transportation. Casual riders have more rides on the electric bike than any other.
+
+#### Conclusion
+
+Being my first analytics project, its has been insightful, challenging and interesting. It can always be improved and refined. I used my Data undefined
