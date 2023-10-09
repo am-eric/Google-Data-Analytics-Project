@@ -142,4 +142,4 @@ Based on all of the above, here are my recommendations:
 
 #### Conclusion
 
-Being my first analytics project, its has been insightful, challenging and interesting. It can always be improved and refined. I used my Data undefined
+Being my first analytics project, its has been insightful, challenging and interesting. It can always be improved and refined.
